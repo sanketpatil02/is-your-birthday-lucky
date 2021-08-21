@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Klee One', cursive;
+    background-image: linear-gradient(90deg, #9CA3AF, #1F2937);
+    min-height: 100vh;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    padding: 1.5rem 0.5rem;
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.label-input-class {
+    display: block; 
+    font-size: 1.5rem;   
+}
+
+.input-class {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+.container-inside {
+    width: 20%;
+    margin: auto;
+    text-align: left;
+}
+
+button {
+    background-color: #1F2937;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#output-box {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.5rem;
+}
+
+
+footer {
+    /* background-color: #FBBF24; */
+    padding-top: 1rem;
+    margin-top: 15%;
+    /* margin-bottom: auto; */
+    width: 100%;
+}
+
+.heading-footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;    
+}
+
+ul li {
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
